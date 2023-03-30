@@ -8,8 +8,10 @@ public class kombinasyon {
         int sayi = verial.nextInt();
         System.out.println("Kaç farklı gurup bulunduğunu yazın");
         
-        int gurup = verial.nextInt();
-        
+        int gurup = verial.nextInt();                                                                                 
+                                                                                     
+                                                                                                                  //Kombinasyon formülü // 
+                                                                                                            //       C(n,r) = n! / (r! * (n-r)!)
         int  toplam1 = 1, toplam2 = 1;
         double sonuc = 0;
         if (sayi > gurup) {
